@@ -1,4 +1,16 @@
 // Nokia5110.c
+// Runs on LM4F120/TM4C123
+// Use SSI0 to send an 8-bit code to the Nokia5110 48x84
+// pixel LCD to display text, images, or other information.
+// Daniel Valvano
+// September 16, 2013
+
+// Font table, initialization, and other functions based
+// off of Nokia_5110_Example from Spark Fun:
+// 7-17-2011
+// Spark Fun Electronics 2011
+// Nathan Seidle
+// http://dlnmh9ip6v2uc.cloudfront.net/datasheets/LCD/Monochrome/Nokia_5110_Example.pde
 
 // Red SparkFun Nokia 5110 (LCD-10168)
 // -----------------------------------
