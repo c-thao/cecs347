@@ -1,3 +1,3 @@
 # PhaseI
 # Description
-Phase I of the project incorporates keeping the robotic car inbetween the two walls.
+Phase I of the project consists of the robot car centering itself as it transverses a path within two walls with both walls at a maximum of 20 cm apart from the sides of the robot respectively. The onboard LEDs will indicate the current status of the robot, green for turning right, blue for turning left, and off for indicating the robot is heading in a forward direction. A potentiometer attached to the robot is to initialize the default duty cycle of the robot. Also a LCD is attached and displays the information regarding the information about the distances detected, the duty cycle of the potentiometer, and the current duty cycle of the robot.
