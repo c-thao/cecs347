@@ -1,3 +1,3 @@
 # Phase II
 ## Description
-Phase II of the project incorporates setting an initial duty cycle for the motors using a potentiometer and incorporating a way to stop the robot car if the distances of the walls becomes too great.
+Phase II of the project adds two onboard push buttons to introduce two modes of operation and a maximum distance. The modes of operation are enabling/disabling motion, and the maximum distance to detect are 20cm and 30cm. In this phase of the project the potentiometer is no longer used to initialize the default duty cycle of the robot. However, the project still consists of the robot car centering itself as it transverses a path within two walls with both walls at a maximum of 20 cm apart from the sides of the robot respectively. The onboard LEDs will indicate the current motion of the robot, red for no motion, green for turning right, blue for turning left, and off for indicating the robot is heading in a forward direction.
